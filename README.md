@@ -1,4 +1,4 @@
 Session 1
 ==========
-- [Getting up and running](./getting-up-and-running.md)
+- [Getting up and running](./up-and-running.md)
 
