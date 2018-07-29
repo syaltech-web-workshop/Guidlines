@@ -21,5 +21,5 @@
       - npm -v
       - composer -V
       - git --version
-    - Here's an [example repo] with the file needed and the output of an example command from the above .. when viewing the file ["up-and-running.md"](https://github.com/syaltech-web-workshop/session01_mohamed_ahmed/blob/master/up-and-running.md) click on raw button to check how it's written to get the heading formatted
+    - Here's an [example repo](https://github.com/syaltech-web-workshop/session01_mohamed_ahmed) with the file needed and the output of an example command from the above .. when viewing the file ["up-and-running.md"](https://github.com/syaltech-web-workshop/session01_mohamed_ahmed/blob/master/up-and-running.md) click on raw button to check how it's written to get the heading formatted
       
