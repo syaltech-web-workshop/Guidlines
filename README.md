@@ -1,4 +1,4 @@
 Session 1
 ==========
-- Basics of PHP
-- Simple Task
+- [Getting up and running](./getting-up-and-running.md)
+
