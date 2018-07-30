@@ -9,8 +9,8 @@
   - Sign in to your github account.
   - Switch to the organization you were invinted to (Syal web development Workshop)... [Here's how](https://help.github.com/articles/accessing-an-organization/)
   - Create new repo inside the organization. and name it session01_your_name (example session01_mohamed_ahmed) and tick the checkbox "Initialize this repository with a README" 
-  ![create a repo](./session01_illustrations/create-repo.PNG)
-  ![intialize a repo](./session01_illustrations/new_repo.PNG)
+  ![create a repo](./session01_illustrations/new_repo.PNG)
+  ![initialize repo](./session01_illustrations/create-repo.PNG)
   - Now go to laragon software installed on your machine and do the following experiments. We are going to run commands to check the version of most of the tools integerated with laragon( This is useful practice not only to check the versions of the software you are using but also to check that every tool/service is up and running without issues).
     - On the repo you have just created on Github create a file named "up-and-running.md" and start editing it and foreach command you will run type the command in a line(prefixed with ## to treat it as a heading .. example .. ## php -v) in the file followed by the output of the command in another line: 
     - The commands to try are: 
