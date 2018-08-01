@@ -27,7 +27,7 @@ While "Relative Path" is the path related to your current working directory. So 
 
 Unlike (.) that usually appear single time in the start of a path, (..) can appear multiple times and may appear in the middle or the end of the relative path. 
 
-An Example of (..) in the middle: Given an absolute path "D:\users\xyz\dir1" then a path relative to it like "dir2\..\..\dir3" will have an absolute path of "D:\users\xyz\dir3"
+An Example of (..) in the middle: Given an absolute path ``` D:\users\xyz\dir1 ``` then a path relative to it like ``` dir2\..\..\dir3 ``` will have an absolute path of ``` D:\users\xyz\dir3 ```
 
 ##### Examples of using cd
 - Your current working directory is "D:\pics" and you need to go to the last summer pics directory with cd command
@@ -42,6 +42,29 @@ An Example of (..) in the middle: Given an absolute path "D:\users\xyz\dir1" the
   - ``` cd ../dir2 ```
   
 ##### Linux vs Windows
--One of the common differences between windows and linux's filesystem is the beginning of any absolute path in linux is "/" which means the root of the filesystem. While in windows every absolute path should start with a drive letter like "D:" and "C:"
--Another difference is the special character that separates directory names inside a path. In linux it's a forwared slash "/", While in Windows it's a back slash "\". But don't worry when working using Cmder terminal integrated into laragon you can use either because it emulates the command line evironment in windows.
+- One of the common differences between windows and linux's filesystem is the beginning of any absolute path in linux is "/" which means the root of the filesystem. While in windows every absolute path should start with a drive letter like "D:" and "C:"
+- Another difference is the special character that separates directory names inside a path. In linux it's a forwared slash "/", While in Windows it's a back slash "\". But don't worry when working using Cmder terminal integrated into laragon you can use either because it emulates the command line evironment in linux.
+
+## Creating files using the command line
+
+- echo "SOME TEXT" > file.txt
+
+Will create a file.txt with "SOME TEXT" inside it, You can use ``` echo "" > file.txt ``` to create an empty file
+
+- touch file.txt
+
+It will create an empty file too
+
+## Creating directory using the command line
+- mkdir dir_name
+
+## Removing a file 
+
+- rm file_name
+
+## Removing an empty directory
+- rmdir dir_name
+
+## Removing a directory that contains files
+- rm -rf dir_name
 
